@@ -141,3 +141,10 @@
   margin-bottom: 28px !important;
 }
 
+@media (max-width: 639px) {
+  .VPHero .image-src {
+    max-width: 160px;
+    max-height: 160px;
+  }
+}
+
