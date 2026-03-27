@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Open Design Environment for European Chips",
+  title: "ODE4EC",
   description: "This is the central website for projects under the ODE4EC umbrella.",
   themeConfig: {
     logo: '/img/ode4ec-logo.svg',
