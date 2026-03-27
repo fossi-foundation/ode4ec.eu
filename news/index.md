@@ -4,7 +4,7 @@ import { data as posts } from './posts.data.ts'
 
 # News & Updates
 
-Stay up to date with the latest developments from the ODE4EC project.
+Stay up to date with the latest developments from the ODE4EC projects.
 
 <div v-for="post in posts" :key="post.url" class="post-entry">
   <span class="date">{{ post.date }}</span>
