@@ -137,3 +137,7 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.VPHome {
+  margin-bottom: 28px !important;
+}
+

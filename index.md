@@ -4,22 +4,30 @@ layout: home
 
 hero:
   name: "Open Design Environment for European Chips"
-  text: "This is the central website for projects under the ODE4EC umbrella."
-  tagline: My great project tagline
+  text: "ODE4EC"
+  tagline: This is the central website for projects under the ODE4EC umbrella.
+  image:
+    src: /img/ode4ec-logo.svg
+    alt: ODE4EC Logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: News
+      link: /news
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Events
+      link: /events
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🌐
+    title: Open Source
+    details: The projects in ODE4EC specifically target and rely on on a healthy open source chip design ecosystem.
+  - icon: 📈
+    title: Grow Chip Design
+    details: ODE4EC projects address challenges in attracting talent and make chip design more accessible.
+  - icon: 🇪🇺
+    title: Paneuropean
+    details: ODE4EC is a joint effort of leading institutions across Europe.
 ---
 
+<EventsPreview />
+<NewsPreview />

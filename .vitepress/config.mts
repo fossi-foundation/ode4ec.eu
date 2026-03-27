@@ -5,24 +5,24 @@ export default defineConfig({
   title: "Open Design Environment for European Chips",
   description: "This is the central website for projects under the ODE4EC umbrella.",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/img/ode4ec-logo.svg',
+
+
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'News', link: '/news/' },
+      { text: 'Events', link: '/events/' },
     ],
 
     sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/fossi-foundation/ode4ec.eu.git' }
+    ],
+
+    footer: {
+      message: '&copy; the authors and project partners of ODE4EC projects. Hosted by the <a href="https://www.fossi-foundation.org">FOSSi Foundation</a>.'
+    }
   }
 })
