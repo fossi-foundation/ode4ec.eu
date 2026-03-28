@@ -145,6 +145,15 @@
   padding-bottom: 24px !important;
 }
 
+.VPSidebar .group + .group {
+  border-top: none !important;
+  padding-top: 4px !important;
+}
+
+.VPSidebarItem.level-0 {
+  padding-bottom: 4px !important;
+}
+
 @media (max-width: 639px) {
   .VPHero .image-src {
     max-width: 160px;

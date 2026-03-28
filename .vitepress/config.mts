@@ -20,6 +20,11 @@ function getSidebarItems(subdir: string) {
   })
 }
 
+const topLevel = [
+  { text: 'About', link: '/about', items: [] },
+  { text: 'Advocacy', link: '/advocacy', items: [] },
+]
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ODE4EC",
@@ -36,29 +41,25 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/about': [
+        ...topLevel,
+        { text: 'News', link: '/news/', items: [] },
+        { text: 'Events', link: '/events/', items: [] },
+      ],
+      '/advocacy': [
+        ...topLevel,
+        { text: 'News', link: '/news/', items: [] },
+        { text: 'Events', link: '/events/', items: [] },
+      ],
       '/news/': [
-        {
-          text: 'News',
-          link: '/news/',
-          items: getSidebarItems('news/posts'),
-        },
-        {
-          text: 'Events',
-          link: '/events/',
-          items: [],
-        },
+        ...topLevel,
+        { text: 'News', link: '/news/', items: getSidebarItems('news/posts') },
+        { text: 'Events', link: '/events/', items: [] },
       ],
       '/events/': [
-        {
-          text: 'News',
-          link: '/news/',
-          items: [],
-        },
-        {
-          text: 'Events',
-          link: '/events/',
-          items: getSidebarItems('events/posts'),
-        },
+        ...topLevel,
+        { text: 'News', link: '/news/', items: [] },
+        { text: 'Events', link: '/events/', items: getSidebarItems('events/posts') },
       ],
     },
 
