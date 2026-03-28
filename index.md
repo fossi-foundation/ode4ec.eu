@@ -11,11 +11,17 @@ hero:
     alt: ODE4EC Logo
   actions:
     - theme: brand
+      text: About
+      link: /about
+    - theme: alt
       text: News
       link: /news
     - theme: alt
       text: Events
       link: /events
+    - theme: alt
+      text: Advocacy
+      link: /advocacy
 
 features:
   - icon: 🌐
