@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Open Design Environment for European Chips"
   text: "ODE4EC"
-  tagline: This is the central website for projects under the ODE4EC umbrella.
+  tagline: This is the central website of the ODE4EC initiative and its projects.
   image:
     src: /img/ode4ec-logo.svg
     alt: ODE4EC Logo
